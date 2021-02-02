@@ -1,0 +1,35 @@
+chat_locked: false
+holograms:
+  '1':
+    lines:
+    - '| AVMC Games |'
+    - §6§lSkyBlock | Survival | KitPvP
+  '2':
+    lines:
+    - Welcome to Farm!
+    - §7Use §b/deluxehub holo §7to customise
+  '3':
+    lines:
+    - §8Welcome to KitPvP
+  Lobby1:
+    lines:
+    - §l§6Welcome to AVMC Games Lobby!
+    - '-'
+    - '§3DISCORD: §bdiscord.avmcgames.ml'
+    - '§8WEBSITE: §9www.avmcgames.ml'
+    location:
+      ==: org.bukkit.Location
+      world: lobby
+      x: 0.759507884370917
+      y: 62.0
+      z: 17.612212431051297
+      pitch: 6.3802004
+      yaw: 179.27869
+spawn:
+  ==: org.bukkit.Location
+  world: lobby
+  x: 0.9272960753695889
+  y: 62.0625
+  z: 20.950996634134018
+  pitch: 4.2534823
+  yaw: 208.62238

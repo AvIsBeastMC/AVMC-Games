@@ -1,0 +1,33 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 5
+npc:
+  '5':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxMDI2MTc2NzcwNywKICAicHJvZmlsZUlkIiA6ICI0YWQ3MWJiOTkwMmM0Mjg3YjFhNzliOTE1ZDgzNWE1ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW1teUdyZWVuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IwN2ZiNGMwMTg3YjZmYWU1OGE0OGVmMzE5MzliOTEwZWI0ZjI5ZGE2MzhmY2IyMjRhOWJmNzFkMTQyOGUzMzEiCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: sammygreen
+      cached-skin-uuid: 4ad71bb9-902c-4287-b1a7-9b915d835a5e
+      player-skin-name: sammygreen
+      player-skin-signature: PIP2S9Nipuooa9K8fkBmMofk9c1lmNDPqJoTT3CrFOs3hrXvcgbXAt0YAHQ/OhfzTD4pdP5jUm+2cQXu5jcvSdUucc5VfHSoFqbLGTIdtMHCiz/HJjGPgsZYtMuUDPIZh/BSuG1IikOy8hIxb5tIT2lL4+zZ1H7FUw1cJUGKFCa0Ra+G1PNGRdP29d2APgXuIfN3YNfyyS8ZbWNSfF4BIGsyNeVp9PKfAhzDsjA87Dww97tt4I92wI7Rd9s2XwSGZDL+kzF0hyjhoE7A3CRJP0U9Oul/LW0g0dCqRwlJxVlvMNOmwEVCQ3pgz/InB0fuXTXKVxCFDO2ta67oKIO3FCkKfXnHVZEVK/Ll4skrbkqtl+tdyoYetW/KLuFpc8fQVJnFom7kvUKPfO9tE1ScHKvRycqXYUmWq8pB3CDNBFBZlyinGEA6mykCwhTl9VO305LnDau+bDWBFb5XP23msZCHpq83gY1sd7v+IRsnCqedxZmJhLKhRxiGBj26jzauITEX9Hi1/BMvziOT7E0BqyTg7drxGkfyXaje9GaPggETVAcMX/PI+o/cs1t3OS5mkNhZM0krqu8Cc7b+TJ7O18wMtjYQk9/+pkURchDW3uyRqwBeduu3Aeyn2RY3E5puqRUPq/v6ZiHh7x2ivqqmCrYPlmq+xQTyeN/vphtcUaM=
+    name: §6§l§oSelector
+    uuid: 9bd5031a-8772-43b8-9384-28858c279244
+    traits:
+      inventory: {}
+      spawned: true
+      location:
+        world: lobby
+        x: '5.433025142635293'
+        y: '62.0'
+        z: '17.539461887789955'
+        yaw: '58.20686340332031'
+        pitch: '3.25978422164917'
+      owner:
+        owner: AvIsBeastYT
+        uuid: e057741b-0016-39e9-b5eb-3e334861b155
+    traitnames: type,location,inventory,owner,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

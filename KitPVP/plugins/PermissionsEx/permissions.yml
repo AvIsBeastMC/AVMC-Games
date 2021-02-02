@@ -1,0 +1,207 @@
+groups:
+  Starter:
+    options:
+      default: true
+      prefix: '[§6Starter§f] '
+    permissions:
+    - deluxehub.block.interact
+    - deluxehub.block.interact.chest
+    - deluxehub.block.place
+    - deluxehub.block.break
+    - deluxehub.player.pvp
+    - pwcp.global
+    - multiverse.teleport.*
+    - essentials.warp
+    - essentials.kits.*
+    - essentials.warp.*
+    - lobbycompass.*
+    - essentials.spawn
+    - essentials.clearinventory
+    - essentials.msg
+    - essentials.motd
+    - essentials.kit
+    - essentials.build
+    - essentials.break
+    - deluxehub.item.pickup
+    world:
+      arena:
+      - essentials.kits.*
+      - multiverse.teleport.*
+      - essentials.warp
+      - essentials.warp.*
+      - lobbycompass.*
+      - essentials.spawn
+      - essentials.kit
+      - essentials.clearinventory
+      - essentials.msg
+      - essentials.motd
+      name:
+      - multiverse.teleport.*
+      - essentials.warp
+      - essentials.warp.*
+      - lobbycompass.*
+      - essentials.spawn
+      - essentials.clearinventory
+      - essentials.msg
+      - essentials.motd
+      - modifyworld
+      - essentials.build
+  Admin:
+    options:
+      prefix: '[§6Admin§f] '
+    permissions:
+    - '*.*'
+    - lobbycompass.*
+    - essentials.*
+    - essentials.fly
+    - essentials.msg
+    - essentials.kits.*
+    - essentials.kit
+  Moderator:
+    options:
+      prefix: '[§6Moderator§f] '
+    permissions:
+    - nte.moderator
+    - deluxehub.*
+    - essentials.*
+    - essentials.tp*
+    - modifyworld.*
+    - lobbycompass.*
+    - essentials.gamemode
+    - essentials.gamemode.*
+    - essentials.kits.*
+    - multiverse.teleport.*
+    - essentials.warp
+    - essentials.warp.*
+    - lobbycompass.*
+    - essentials.spawn
+    - essentials.kit
+    - essentials.clearinventory
+    - essentials.msg
+    - essentials.kit
+    - essentials.kits.*
+    - essentials.build
+  owner:
+    options:
+      prefix: '&6[&cOwner&6]&7'
+  God:
+    options:
+      prefix: '&6[&cGod&6]&7'
+  Started:
+    permissions:
+    - essentials.break
+    - essentials.build
+schema-version: 1
+users:
+  e057741b-0016-39e9-b5eb-3e334861b155:
+    group:
+    - Admin
+    options:
+      name: AvIsBeastYT
+    permissions: []
+  02710eea-658e-3124-b490-7444bc372df8:
+    group:
+    - Mod
+    options:
+      prefix: '&6[&cMod&6]&7'
+      name: DYNAMOGAMINGYT
+    permissions:
+    - essentials.*
+  deonasoto:
+    group:
+    - Mod
+    permissions:
+    - essentials.gamemode.*
+  server:
+    options:
+      group: Starter
+    group:
+    - God
+  '[server]':
+    group:
+    - God
+  869145a7-4e98-3cbe-bc75-6f8f618d3a17:
+    group:
+    - Moderator
+    permissions:
+    - essentials.*
+    - deluxehub.*
+    - deluxehub.item.pickup
+    - deluxehub.player.pvp
+    - deluxehub.block.place
+    - deluxehub.block.break
+    - deluxehub.break.*
+    - modifyworld.*
+    - essentials.build.*
+    options:
+      name: ArizonalSlayerYT
+  265b1819-3f5f-3e5b-865e-822a1ff6d1f0:
+    options:
+      name: phantomgamerZ
+      prefix: '&6[&cMod&6]&7'
+    group:
+    - Mod
+    worlds:
+      Mod&6]&7:
+        options:
+          prefix: '&6[&cStarter'
+  708f83cd-b150-33d6-b7af-ab56190a239c:
+    options:
+      name: Technoblade
+    permissions:
+    - essentials.setwarp
+  4498cbe2-35a7-3cac-9ccf-6bab6270644d:
+    group:
+    - Moderator
+    permissions:
+    - deluxehub.block.place
+    - essentials.afk
+    - deluxehub.*
+    - deluxehub.player.pvp
+    options:
+      name: whykickme
+  90d4ba63-be01-3ced-905c-02995da68033:
+    permissions:
+    - essentials.back
+    - essentials.sethome
+    - essentials.home
+    - deluxehub.*
+    options:
+      name: rowdykiller
+    group:
+    - Moderator
+  40319f23-1834-3796-afd6-79ec7d56640d:
+    permissions:
+    - '*'
+    - essentials.home
+    - deluxehub.*
+    - deluxehub.player.pvp
+    options:
+      name: ARYAMANGAMING_YT
+    group:
+    - Moderator
+  starter:
+    permissions:
+    - deluxehub.block.interact.chests
+  26a1d0c5-feb2-33ec-8f63-46bef3937310:
+    options:
+      name: V1pr
+    group:
+    - Moderator
+  463ea98a-e318-323d-83c0-c6af21bcb0a2:
+    group:
+    - Moderator
+    options:
+      name: CryptoKnight7
+  d0a92f25-834f-39d3-9164-1d7828fcb7b8:
+    group:
+    - Moderator
+    options:
+      name: v3NoMYT
+  930d713f-c7fd-3ca3-a4cb-4bee9d4ae3c5:
+    permissions:
+    - kp.*
+    options:
+      name: Demon_GamingYT
+    group:
+    - Moderator

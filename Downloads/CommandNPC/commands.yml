@@ -1,0 +1,8 @@
+NPCS:
+  '4':
+    Commands:
+    - say hello~~-cfalse~false~0.0
+    - kitpvp~~-cfalse~false~0.0
+  '5':
+    Commands:
+    - serverselector~~-cfalse~false~0.0

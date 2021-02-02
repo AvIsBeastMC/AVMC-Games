@@ -1,0 +1,51 @@
+Kit:
+  Permission: kp.kit.fighter
+  Cooldown: 0
+  Level: 0
+Inventory:
+  Armor:
+    Helmet:
+      Name: '&7Fighter Helmet'
+      Material: IRON_HELMET
+    Chestplate:
+      Name: '&7Fighter Chestplate'
+      Material: IRON_CHESTPLATE
+    Leggings:
+      Name: '&7Fighter Leggings'
+      Material: IRON_LEGGINGS
+    Boots:
+      Name: '&7Fighter Boots'
+      Material: IRON_BOOTS
+  Items:
+    '0':
+      Name: '&aFighter''s Sword'
+      Material: IRON_SWORD
+    '1':
+      Name: '&aHealth Pack &7(Right Click)'
+      Material: ENDER_CHEST
+    '8':
+      Name: '&aPlayer Tracker &7(Right Click)'
+      Material: COMPASS
+    Fill:
+      Name: '&aRegenerative Soup &7(Right Click)'
+      Material: MUSHROOM_SOUP
+Abilities:
+  HealthPack:
+    Activator:
+      Name: '&aHealth Pack &7(Right Click)'
+      Material: ENDER_CHEST
+    Cooldown:
+      Cooldown: 30S
+    Message:
+      Message: '%prefix% &7You have used a &bHealth Pack&7.'
+    Sound:
+      Sound: ANVIL_USE
+      Pitch: 1
+      Volume: 1
+    Effects:
+      SPEED:
+        Amplifier: 2
+        Duration: 10
+      REGENERATION:
+        Amplifier: 2
+        Duration: 10

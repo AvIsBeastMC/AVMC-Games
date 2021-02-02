@@ -1,0 +1,21 @@
+Groups:
+  Admin:
+    Permission: nte.admin
+    Prefix: '&f[&6Admin&f] §c'
+    Suffix: '&f'
+    SortPriority: 1
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&f[&6Staff&f] §7'
+    Suffix: '&f'
+    SortPriority: 2
+  Starter:
+    Permission: ''
+    Prefix: ''
+    Suffix: ''
+    SortPriority: 5
+  VIP+:
+    Permission: ''
+    Prefix: '&6VIP+'
+    Suffix: ''
+    SortPriority: 4

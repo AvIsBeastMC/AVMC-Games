@@ -1,0 +1,25 @@
+# To learn more about customizing the Scoreboard, please
+# visit the scoreboard.yml documentation on GitHub:
+# https://github.com/cervinakuy/KitPvP/wiki/scoreboard.yml
+
+Scoreboard:
+  General:
+    Title: '&0     &r&b&lKIT-PVP     &0'
+    Enabled: true
+  Lines:
+  - ' '
+  - '&6&lStats'
+  - '&aName: &f%player%'
+  - '&aRank: &f%vault_rank%'
+  - '&aKills: &f%kills%'
+  - '&aDeaths: &f%deaths%'
+  - '&aK/D Ratio: &f%kd%'
+  - ' '
+  - '&6&lLevel'
+  - '&aLevel: &f%level%/%max_level%'
+  - '&aExperience: &f%xp%/%max_xp%'
+  - ' '
+  - '&c&lKill Streak'
+  - '&f%streak% Kills'
+  - ' '
+  - '&emc.playavmcgames.ml'

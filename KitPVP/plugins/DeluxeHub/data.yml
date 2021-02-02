@@ -1,0 +1,57 @@
+chat_locked: false
+holograms:
+  '1':
+    lines:
+    - '| AVMC Games |'
+    - §6§lSkyBlock | Survival | KitPvP
+  '2':
+    lines:
+    - Welcome to Farm!
+    - §7Use §b/deluxehub holo §7to customise
+  '3':
+    lines:
+    - §8Welcome to KitPvP
+  '4':
+    lines:
+    - '| §6Welcome to AVMC Games |'
+    - §6§lSkyBlock | Survival | KitPvP
+  SkyWars:
+    lines:
+    - LOL
+    - SkyWars(Under Construction)
+  SkyBlock:
+    lines:
+    - §6SkyBlock
+    - 'Server Status: §7Online'
+  Bedwars:
+    lines:
+    - §6Bedwars (Under Construction)
+    - 'Server Status: §cOffline'
+  kitpvp:
+    lines:
+    - §6KitPVP
+    - 'Server Status: §7Online'
+  I:
+    lines:
+    - §7Created new Hologram called §bI
+    - §7Use §b/deluxehub holo §7to customise
+  kitpvp1:
+    location:
+      ==: org.bukkit.Location
+      world: main2
+      x: 0.4970951951464859
+      y: 139.0
+      z: -5.300000011920927
+      pitch: 14.209783
+      yaw: 0.1776123
+    lines:
+    - §6Welcome to AVMC Games §cKITPVP
+    - §1Go Down the Hole to §cPVP
+spawn:
+  ==: org.bukkit.Location
+  world: main2
+  x: 0.5081793870249658
+  y: 139.5
+  z: -7.59784519541577
+  pitch: 14.209783
+  yaw: 0.1776123

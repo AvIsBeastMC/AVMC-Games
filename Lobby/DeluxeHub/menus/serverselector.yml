@@ -1,0 +1,148 @@
+# Server Selector GUI
+# The ID of this inventory is 'serverselector' which you can open using the [MENU] action (e.g. "[MENU] serverselector").
+# You can create more custom GUIs, just copy this entire file and paste a new one in the menus directory. The name of the file is the menu ID.
+#
+# PLAYER HEADS
+#   You can have player heads, using player names, base64 or HeadDatabase IDs.
+#   Examples
+#     Username (must have logged into the server once)
+#       material: PLAYER_HEAD
+#       username: <name>
+#
+#     Base64
+#       material: PLAYER_HEAD
+#       base64: <base64 id>
+#
+#     HeadDatabase
+#       material: PLAYER_HEAD
+#       hdb: <hdb id>
+#
+# ITEM FLAGS
+#   You can add flags to the item (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html)
+#   Example:
+#     item_flags:
+#       - HIDE_ATTRIBUTES
+#       - HIDE_DESTROYS
+#       - HIDE_ENCHANTS
+#       - HIDE_PLACED_ON
+#       - HIDE_POTION_EFFECTS
+#       - HIDE_UNBREAKABLE
+#
+# ITEM ACTIONS
+#   All item actions can be found here https://wiki.lewisdev.fun/free-resources/deluxehub/action-types
+
+# Slots of the GUI
+slots: 27
+
+# Title of the GUI
+title: "Server Selector"
+
+# Automatically update open inventories.
+# This can be used to update placeholders in the GUI.
+refresh:
+  enabled: false
+  rate: 40
+
+# The items inside the GUI can be listed here
+items:
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    slot: -1 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
+  spawn:
+    material: TNT
+    slot: 11
+    amount: 1
+    glow: true
+    display_name: '&eLobby'
+    lore:
+      - '&7Join now!'
+      - '&6&lServer Status: Online'
+      - '&aPlayers: %bungee_Lobby%'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &eLobby'
+      - '[CONSOLE] mvtp %player% hub'
+      - '[CONSOLE] clear %player%'
+      - '[CONSOLE] dhub reload'
+      - '[BUNGEE] Lobby'
+      - '[CONSOLE] mvs %player%'
+      # For multi-world servers using Multiverse-Core, use the action:
+      # - '[CONSOLE] mvtp %player% world'
+  kitpvp:
+    material: DIAMOND_SWORD
+    slot: 15
+    amount: 1
+    glow: true
+    display_name: '&eKitPvP'
+    lore:
+      - '&7Join now!'
+      - '&6&lServer Status: Online'
+      - '&aPlayers: %bungee_AVMC1%'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &eKitPvP'
+      - '[BUNGEE] AVMC1'
+      # For multi-world servers using Multiverse-Core, use the action:
+      # - '[CONSOLE] mvtp %player% world'
+  skyblock:
+    material: DIRT
+    slot: 20
+    amount: 1
+    glow: true
+    display_name: '&eSkyBlock World Create'
+    lore:
+      - '&7You need to first a Create SkyBlock World to Teleport There!'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] [SkyBlock] &7Creating Skyblock World for %player%, please wait for max. 30 seconds before entering!'
+      - '[CONSOLE] mvdelete %player%s'
+      - '[CONSOLE] mvconfirm'
+      - '[CONSOLE] mvclone SkyBlock %player%s'
+      - '[CONSOLE] mvm set alias SkyBlock %player%s'      
+      # For multi-world servers using Multiverse-Core, use the action:
+      # - '[CONSOLE] mvtp %player% world'     
+  skyblocks:
+    material: GRAVEL
+    slot: 24
+    amount: 1
+    glow: true
+    display_name: '&e%player%s SkyBlock'
+    lore:
+      - '&7Join now!'
+      - '&aPlayers: %world_players_%player%s%'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &e%player%s SkyBlock'
+      - '[CONSOLE] mvtp %player% %player%s'
+      # For multi-world servers using Multiverse-Core, use the action:
+      # - '[CONSOLE] mvtp %player% world' 
+  bedwars:
+    material: RED_BED
+    slot: 13
+    amount: 1
+    glow: true
+    display_name: '&cBedWars'
+    lore:
+      - '&7BedWars Solo, Doubles, 3v3v3 Mini-Games!'
+      - '&6&lServer Status: Online'
+      - '&aPlayers: %bungee_Bedwars%'
+    actions:
+      - '[CLOSE]'
+      - '[BUNGEE] Bedwars'
+      # For multi-world servers using Multiverse-Core, use the action:
+      # - '[CONSOLE] mvtp %player% world'       
+  survivals:
+    material: GRAVEL
+    slot: 22
+    amount: 1
+    glow: true
+    display_name: '&e%player%s Survival'
+    lore:
+      - '&7Join now!'
+      - '&aPlayers: %world_players_%player%%'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &e%player%s Survival'
+      - '[CONSOLE] mvtp %player% %player%'
+      # For multi-world servers using Multiverse-Core, use the action:
+      # - '[CONSOLE] mvtp %player% world'        

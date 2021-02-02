@@ -1,0 +1,348 @@
+[00:14:06] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[00:14:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished (Re)Loading!
+[00:51:33] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 2s
+[00:52:52] [PaperSpigot Watchdog Thread/ERROR]: The server has stopped responding!
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: Please report this to PaperSpigot directly!
+[00:52:54] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: PaperSpigot version: git-PaperSpigot-"4c7641d" (MC: 1.8.8)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to PaperSpigot!):
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 15 | Suspended: false | Native: true | State: RUNNABLE
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.open0(Native Method)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.open(FileOutputStream.java:270)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.WorldNBTStorage.saveWorldData(WorldNBTStorage.java:130)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.ServerNBTManager.saveWorldData(SourceFile:43)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.WorldServer.a(WorldServer.java:998)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.WorldServer.save(WorldServer.java:956)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_8_R3.CraftWorld.save(CraftWorld.java:777)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:738)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[00:53:58] [PaperSpigot Watchdog Thread/ERROR]: Entire Thread Dump:
+[00:56:10] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:01:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: ConcurrentSessionController-Worker-0
+[00:56:20] [ConcurrentSessionController-Worker-0/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 8s
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 621 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.reconnect(WebSocketClient.java:618)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient$ReconnectNode.run(WebSocketClient.java:1437)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.dependencies.jda.api.utils.ConcurrentSessionController$Worker.processQueue(ConcurrentSessionController.java:155)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.dependencies.jda.api.utils.ConcurrentSessionController$Worker.run(ConcurrentSessionController.java:133)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: OkHttp ConnectionPool
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 609 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - Channel Topic Updater
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 355 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.objects.threads.ChannelTopicUpdater.run(ChannelTopicUpdater.java:59)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - Server Watchdog
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 354 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.objects.threads.ServerWatchdog.run(ServerWatchdog.java:64)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - Console Message Queue Worker
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 353 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.objects.threads.ConsoleMessageQueueWorker.run(ConsoleMessageQueueWorker.java:56)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - Nickname Updater
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 352 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.objects.threads.NicknameUpdater.run(NicknameUpdater.java:104)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - Presence Updater
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 351 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:105)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - JDA Rate Limit
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 81 | Suspended: false | Native: false | State: WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - JDA Gateway
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 80 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - JDA Rate Limit
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 78 | Suspended: false | Native: false | State: WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - JDA Rate Limit
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 76 | Suspended: false | Native: false | State: WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - JDA Rate Limit
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 70 | Suspended: false | Native: false | State: WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV - JDA Rate Limit
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 69 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: pool-34-thread-1
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 67 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: File IO Thread
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 66 | Suspended: false | Native: false | State: RUNNABLE
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		Locked on:net.minecraft.server.v1_8_R3.RegionFile.a(RegionFile.java:195)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.RandomAccessFile.write0(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.RandomAccessFile.write(RandomAccessFile.java:489)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.RandomAccessFile.writeInt(RandomAccessFile.java:1030)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.RegionFile.a(RegionFile.java:260)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.RegionFile.a(RegionFile.java:195)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.RegionFile$ChunkBuffer.close(RegionFile.java:308)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:241)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.ChunkRegionLoader.b(ChunkRegionLoader.java:181)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.ChunkRegionLoader.c(ChunkRegionLoader.java:162)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.FileIOThread.c(FileIOThread.java:35)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.FileIOThread.run(FileIOThread.java:28)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Timer-2
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 42 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Timer.java:552)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Timer.java:505)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Timer-1
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Timer.java:552)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Timer.java:505)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Timer-0
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 36 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Timer.java:552)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Timer.java:505)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DiscordSRV ExpiryThread
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.objects.ExpiringDualHashBidiMap$ExpiryThread.run(ExpiringDualHashBidiMap.java:134)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #0
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:194)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:219)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Spigot Metrics Thread
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 22 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Timer.java:552)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Timer.java:505)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: PaperSpigot Watchdog Thread
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpThreads0(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:76)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Server console handler
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 18 | Suspended: false | Native: true | State: RUNNABLE
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		Locked on:java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FileInputStream.readBytes(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FileInputStream.read(FileInputStream.java:255)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:79)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Thread-5
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: RUNNABLE
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.UNIXProcess.forkAndExec(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.ProcessImpl.start(ProcessImpl.java:134)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Runtime.exec(Runtime.java:621)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Runtime.exec(Runtime.java:486)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.exec(TerminalLineSettings.java:196)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.exec(TerminalLineSettings.java:186)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.stty(TerminalLineSettings.java:181)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.get(TerminalLineSettings.java:74)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.getProperty(TerminalLineSettings.java:95)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.UnixTerminal.getWidth(UnixTerminal.java:76)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.drawBuffer(ConsoleReader.java:879)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.drawBuffer(ConsoleReader.java:898)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.drawLine(ConsoleReader.java:608)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_8_R3.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:38)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 15 | Suspended: false | Native: false | State: RUNNABLE
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.open0(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.open(FileOutputStream.java:270)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.WorldNBTStorage.saveWorldData(WorldNBTStorage.java:130)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.ServerNBTManager.saveWorldData(SourceFile:43)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.WorldServer.a(WorldServer.java:998)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.WorldServer.save(WorldServer.java:956)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_8_R3.CraftWorld.save(CraftWorld.java:777)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:738)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Server Infinisleeper
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 16 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.DedicatedServer$1.run(DedicatedServer.java:54)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: NonBlockingInputStreamThread
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 13 | Suspended: false | Native: false | State: WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Snooper Timer
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 11 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Timer.java:552)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Timer.java:505)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Finalizer
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: WAITING
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Object.java:502)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: 		java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+[01:10:20] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:10:20] [PaperSpigot Watchdog Thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+[01:10:20] [Thread-4/INFO]: Stopping server

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: bigjohn;
+  src: url(bigjohn.otf) format('opentype');
+}
+@font-face {
+  font-family: cunia;
+  src: url(Cunia.ttf) format('truetype');
+}
+@font-face {
+  font-family: secular;
+  src: url(secular.ttf) format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+forfont h1{
+  font-family: bigjohn;
+  letter-spacing: normal;
+}
+body {
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+forfont h2{
+  font-family: cunia;
+  letter-spacing: normal;
+}
+serverstat button{
+  background-color: transparent;
+  width:120px;
+  height:50px;
+  text-align:center;
+  line-height:1.1em;
+  font-size:1.1em;
+}
+forfont2{
+  font-family: secular;
+  letter-spacing: normal;
+}
+boldness{
+  font-weight: bold
+}
