@@ -11,7 +11,7 @@
   src: url(secular.ttf) format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-h1{
+bigjohn h1{
   font-family: bigjohn;
   letter-spacing: normal;
 }
@@ -36,4 +36,7 @@ forfont2{
 }
 boldness{
   font-weight: bold
+}
+rules section{  
+  font-family: fixedsys;
 }

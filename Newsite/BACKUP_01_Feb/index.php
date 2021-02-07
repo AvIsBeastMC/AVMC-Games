@@ -63,7 +63,9 @@
   <div class="container px-5 py-2 mx-auto">
     <div class="flex flex-col text-center w-full mb-20"><forfont>
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Professional KitPVP and Bedwars</h2>
+      <bigjohn>
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">AVMC Games Network</h1></forfont>
+      </bigjohn>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base"><boldness>Our Network has KitPVP, SkyBlock & Survival and with Bedwars (Under Development) and also with Stunningly Low Ping, Great 24/7 Email and On-Server Mods Support (also Discord).
       </boldness>
 
@@ -133,68 +135,16 @@
     </div>
 </div><br><br>
 <hr>
+<br>
+</section><rules>
+<section></rules>
+<div class="container px-5 py-2 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20"><forfont>
+      <h3 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Rules and Regulations</h3>
+      <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">RULES</h2></forfont>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base"><boldness>Our Network has KitPVP, SkyBlock & Survival and with Bedwars (Under Development) and also with Stunningly Low Ping, Great 24/7 Email and On-Server Mods Support (also Discord).
+      </boldness>
 </section>
-<div class="container px-5 py-24 mx-auto">
-  <div class="flex flex-col text-center w-full mb-20">
-    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Staff</h1>
-    <p class="text-gray-1200 lg:w-2/3 mx-auto leading-relaxed text-base">These are the Moderators of the Server who manage and maintain the AVMC Game Servers. <br> You can talk to the Staff on our <a href="https://www.avmcgames.ml/discord"><u>Discord Server</u></a></p>
-  </div>
-  <div class="flex flex-wrap -m-2">
-    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="servermc.png">
-        <div class="flex-grow">
-          <h2 class="text-gray-900 title-font font-medium">AvIsBeastMC </h2>
-          <p class="text-gray-500">Server Admin & Sr. Manager </p>
-        </div>
-      </div>
-    </div>
-    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <img src="https://cdn.discordapp.com/avatars/557887307907203073/f84112d0dbc249f27f6132fcc09b7ed8.png?size=128" alt=" " class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" aria-hidden="true">
-        <div class="flex-grow">
-          <h2 class="text-gray-900 title-font font-medium">xDemonGAMINGx</h2>
-          <p class="text-gray-500">Sr. Moderator</p>
-        </div>
-      </div>
-    </div>
-    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <img src="https://cdn.discordapp.com/avatars/742344100178821221/425f2417755b66c53cc27b4cce5dece8.png?size=128" alt=" " class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" aria-hidden="true">
-        <div class="flex-grow">
-          <h2 class="text-gray-900 title-font font-medium">BadassBoyTej</h2>
-          <p class="text-gray-500">Moderator and Posts Manager</p>
-        </div>
-      </div>
-    </div>
-    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-        <div class="flex-grow">
-          <h2 class="text-gray-900 title-font font-medium"><center>xX_EkMh123_Xx</center></h2>
-          <p class="text-gray-500"><center>Discord Sr. Moderator</center></p>
-        </div>
-      </div>
-    </div>
-  <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-        <img src="https://discord.com/assets/322c936a8c8be1b803cd94861bdfa868.png" alt=" " class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" aria-hidden="true">
-        <div class="flex-grow">
-          <h2 class="text-gray-900 title-font font-medium">samplayZ</h2>
-          <p class="text-gray-500">Moderator</p>
-        </div>
-      </div>
-    </div>
-  <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-        <img src="https://cdn.discordapp.com/avatars/677457193875800074/64d79a812acf08decd075ef16cb2de8d.png?size=128" alt="" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" aria-hidden="true">
-          <div class="flex-grow">
-          <h2 class="text-gray-900 title-font font-medium">Scorpios_MC </h2>
-          <p class="text-gray-500"> Moderator</p>
-        </div>
-      </div>
-    </div>
-</div>
-</div>
 <hr>
 <footer class="text-gray-600 body-font">
 <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
