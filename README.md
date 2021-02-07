@@ -1,8 +1,11 @@
 # AVMC-Games
-Update Notes: 04_Feb_20
+Update Notes: 07_Feb_21
 -------------------------------------------
-1. New GitHub Wiki Page Added.
-2. Repository Published and Can be Seen Publically.
+1. Removed Staff from Home Page
+2. Replaced it in the Home Page with Rules and Regulations
+to be followed inside the Discord and the Minecraft Network itself.
+3. Working on Update: 08_Feb_21 that is promised to include new Posts Panel 
+and Posts Page for AVMC.  
 -------------------------------------------
 This repository includes the Files took to develop the Minecraft Network and Website of the AVMC Network.
 This repository has branches: master (main, proven for no issues), betas (which will have the Files being built for usage later.)
