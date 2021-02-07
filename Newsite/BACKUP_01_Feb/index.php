@@ -63,9 +63,7 @@
   <div class="container px-5 py-2 mx-auto">
     <div class="flex flex-col text-center w-full mb-20"><forfont>
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Professional KitPVP and Bedwars</h2>
-      <bigjohn>
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">AVMC Games Network</h1></forfont>
-      </bigjohn>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base"><boldness>Our Network has KitPVP, SkyBlock & Survival and with Bedwars (Under Development) and also with Stunningly Low Ping, Great 24/7 Email and On-Server Mods Support (also Discord).
       </boldness>
 
@@ -135,15 +133,72 @@
     </div>
 </div><br><br>
 <hr>
-<br>
-</section><rules>
-<section></rules>
-<div class="container px-5 py-2 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20"><forfont>
-      <h3 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Rules and Regulations</h3>
-      <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">RULES</h2></forfont>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base"><boldness>Our Network has KitPVP, SkyBlock & Survival and with Bedwars (Under Development) and also with Stunningly Low Ping, Great 24/7 Email and On-Server Mods Support (also Discord).
-      </boldness>
+</section>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">RULES</h1><b>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Please Read the Above Rules and Make Sure you Do Not Abuse them! <br> You may contact the Moderators on our Discord Support Panel.</p></b>
+      <br>
+    </div>
+    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Respect All Players</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">No Cheating and Exploiting</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Disrespecting Players will Lead to Temporary Mutes or even PERMANENT!</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Spamming or Scamming in the Server Chat will lead to Permanent Mutes!</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">You cannot Mention Moderators until Help is Needed!</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Don't enter Suspicious Links to Websites in Chat! As said, will lead to Mutes!</span>
+        </div>
+      </div>
+    </div>
+    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+  </div>
 </section>
 <hr>
 <footer class="text-gray-600 body-font">
