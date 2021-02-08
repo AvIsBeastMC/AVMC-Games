@@ -157,7 +157,7 @@
         <p class="leading-relaxed mb-5">This posts includes the Development of SkyWars Servers on
         AVMC Network Servers and Related.</p>
         <a class="inline-flex items-center">
-          <img alt="blog" src="https://cdn.discordapp.com/avatars/742344100178821221/425f2417755b66c53cc27b4cce5dece8.png?size=128" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
+          <img alt="blog" src="https://cdn.discordapp.com/avatars/742344100178821221/abaf0ce06ad31c09176ea03f0d591218.png?size=128" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
           <span class="flex-grow flex flex-col pl-3">
             <span class="title-font font-medium text-gray-900">BadassBoyTej</span>
           </span>

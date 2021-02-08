@@ -74,7 +74,7 @@
 <div class="xl:w-1/3 md:w-1/2 p-4">
 <div class="border border-gray-200 p-6 rounded-lg">
 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-<img alt="team" class=" bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/avatars/742344100178821221/425f2417755b66c53cc27b4cce5dece8.png?size=128">
+<img alt="team" class=" bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/avatars/742344100178821221/abaf0ce06ad31c09176ea03f0d591218.png?size=128">
 </div>
 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">BadassBoyTej</h2>
 <p class="leading-relaxed text-base">Moderator and Posts Manager</p>
@@ -83,6 +83,7 @@
 <div class="xl:w-1/3 md:w-1/2 p-4">
 <div class="border border-gray-200 p-6 rounded-lg">
 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+<img alt="team" class=" bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/avatars/778824824091967489/a_4965ab9211e27382faebe71280475d24.gif?size=128">
 </div>
 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">xX_EkMh123_Xx</h2>
 <p class="leading-relaxed text-base">Discord Sr. Moderator</p>
